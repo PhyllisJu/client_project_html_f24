@@ -14,7 +14,7 @@ header {
     grid-template-columns: 1fr;
     background-color: #00274C;
     color: #f6f6f6;
-    font-size: 3.8vw;
+    font-size: 4vw;
     letter-spacing: 0.5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
