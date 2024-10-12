@@ -72,7 +72,7 @@ h3 {
 
 p {
     line-height: 30px;
-    font-size: 3.8vw;
+    font-size: 4vw;
 }
 
 img {
@@ -80,7 +80,7 @@ img {
 }
 
 figure {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 figcaption {
@@ -92,7 +92,6 @@ figcaption {
 strong {
     font-weight: 700;
 }
-
 
 #main-content {
     width: 85%;
@@ -118,7 +117,7 @@ footer a:hover {
 }
 
 footer p {
-    font-size: 3.5vw;
+    font-size: 3.8vw;
 }
 
 /* skip to main link */
@@ -169,7 +168,11 @@ body *:focus {
     list-style-type: circle;
     padding-left: 18px;
     line-height: 30px;
-    font-size: 3.8vw;
+    font-size: 4vw;
+}
+
+.home-main ol {
+    margin-top: 10px;
 }
 
 .home-main #physical-health, #mental-health, #life-outside-classroom {
