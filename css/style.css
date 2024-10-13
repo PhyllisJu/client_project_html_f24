@@ -354,6 +354,7 @@ body *:focus {
     color:#575294;
     transition: border-bottom 0.3s;
     transition: font-size 0.3s;
+    text-decoration: underline;
 }
 
 .caps-main ul a:hover {
@@ -491,6 +492,7 @@ body *:focus {
 .cew-main #counseling a {
     color:#575294;
     transition: all 0.3s;
+    text-decoration: underline;
 }
 
 .cew-main #counseling a:hover {
