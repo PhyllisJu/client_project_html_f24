@@ -96,7 +96,7 @@ strong {
     font-weight: 700;
 }
 
-ol, ul {
+#main-content ol, #main-content ul {
     list-style-type: circle;
     padding-left: 18px;
     line-height: 30px;
