@@ -10,238 +10,267 @@
 </head>
 
 <body>
-    <a href="#main-content">Skip to Main Content</a>
+    <div class="skip"><a href="#main-content">Skip to Main Content</a></div>
     <header>
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="study_spaces.html">Where to Study</a></li>
+                <li><a class="current" href="study_spaces.html">Where to Study</a></li>
                 <li><a href="caps.html">Support and Wellbeing</a></li>
                 <li><a href="cew.html">Education of Women &#43;</a></li>
             </ul>
         </nav>
-        <h1>Explore Study Spaces on Campus</h1>
+        <div class="study-space-title">
+            <h1>Explore Study Spaces on Campus</h1>
+        </div>
     </header>
 
-    <main id="main-content">
-        <div>
-            <p>Study Spaces at U-M is a tool designed to help you find and reserve designated study spaces, computer
-                stations, a space for you to take a remote class, or just a dedicated quiet touchdown spot between
-                classes.</p>
-        </div>
+    <main id="main-content" class="study-main">
+        <p>This page is designed to help you find and reserve designated study spaces, computer
+            stations, a space for you to take a remote class, or just a dedicated quiet touchdown spot between
+            classes.</p>
 
         <!-- Below is the Sidebar -->
         <aside>
-            <img src="images/north_campus.jpg" alt="North Campus">
-            <a href="#north-campus">North Campus</a>
-            <img src="images/um_library.jpg" alt="U-M Library">
-            <a href="#um-library">U-M Library</a>
-            <img src="images/detroit_center.jpg" alt="U-M Detroit Center">
-            <a href="#um-detroit-center">U-M Detroit Center</a>
+            <div class="location-btn" id="north-campus-btn">
+                <p><a href="#north-campus">North Campus</a></p>
+            </div>
+            <div class="location-btn" id="um-library-btn">
+                <p><a href="#um-library">U-M Library</a></p>
+            </div>
+            <div class="location-btn" id="detroit-center-btn">
+                <p><a href="#um-detroit-center">U-M Detroit Center</a></p>
+            </div>
         </aside>
 
         <!-- Below is the content on right-hand side -->
         <h2 id="north-campus">North Campus</h2>
         <div>
-            <img src="images/bbb_building.jpg" alt="Bob and Betty Beyster Building">
-            <p>Bob and Betty Beyster Building (BBB)</p>
-            <a href="https://maps.app.goo.gl/VVTW4bRADXrDFmZ6A" target="_blank">
+            <figure>
+                <img src="images/bbb_building.jpg" alt="Bob and Betty Beyster Building">
+                <figcaption>Bob and Betty Beyster Building (BBB)</figcaption>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/VVTW4bRADXrDFmZ6A" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
+            <ul class="room-list">
                 <li><a href="https://umich-nc.libcal.com/reserve/bbb1695" target="_blank">Collaboration Computers -
-                        1695 (Single Seat)</a></li>
+                        1695 (Single Seat) &#8594;</a></li>
             </ul>
         </div>
 
         <div>
-            <img src="images/csrb_building.jpg" alt="Climate and Space Research Building">
-            <p>Climate and Space Research Building (CSRB)</p>
-            <a href="https://maps.app.goo.gl/qR5LEvBij72t34p2A" target="_blank">
+            <figure>
+                <img src="images/csrb_building.jpg" alt="Climate and Space Research Building">
+                <figcaption>Climate and Space Research Building (CSRB)</figcaption>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/qR5LEvBij72t34p2A" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
+            <ul class="room-list">
                 <li><a href="https://umich-nc.libcal.com/spaces?lid=15851&gid=33408" target="_blank">CSRB 2204 (Single
-                        Seat)</a>
+                        Seat) &#8594;</a>
                 </li>
             </ul>
         </div>
 
         <div>
-            <img src="images/eecs_building.jpg" alt="Electrical Engineering and Computer Science Building (EECS)">
-            <p>Electrical Engineering and Computer Science Building (EECS)</p>
-            <a href="https://maps.app.goo.gl/wJpw5o5UwAJizqzY9" target="_blank">
+            <figure>
+                <img src="images/eecs_building.jpg" alt="Electrical Engineering and Computer Science Building (EECS)">
+                <figcaption>Electrical Engineering and Computer Science Building (EECS)</figcaption>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/wJpw5o5UwAJizqzY9" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
-                <li><a href="https://umich-nc.libcal.com/reserve/eecs2420" target="_blank">EECS 2420 (Single Seat)</a>
+            <ul class="room-list">
+                <li><a href="https://umich-nc.libcal.com/reserve/eecs2420" target="_blank">EECS 2420 (Single Seat)
+                        &#8594;</a>
                 </li>
-                <li><a href="https://umich-nc.libcal.com/reserve/eecs2420" target="_blank">EECS 4440 (Single Seat)</a>
+                <li><a href="https://umich-nc.libcal.com/reserve/eecs2420" target="_blank">EECS 4440 (Single Seat)
+                        &#8594;</a>
                 </li>
                 <li><a href="https://umich-nc.libcal.com/spaces?lid=11262&gid=0&c=1" target="_blank">EECS 3112 (Space
                         for 1-4
-                        People)</a>
+                        People) &#8594;</a>
                 </li>
             </ul>
         </div>
 
         <div>
-            <img src="images/robotics_building.jpg" alt="Ford Motor Company Robotics Building (FMCRB)">
-            <p>Ford Motor Company Robotics Building (FMCRB)</p>
-            <a href="https://maps.app.goo.gl/KeE8TqH9M9zVtJfDA" target="_blank">
+            <figure>
+                <img src="images/robotics_building.jpg" alt="Ford Motor Company Robotics Building (FMCRB)">
+                <figcaption>Ford Motor Company Robotics Building (FMCRB)</figcaption>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/KeE8TqH9M9zVtJfDA" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
+            <ul class="room-list">
                 <li><a href="https://umich-nc.libcal.com/reserve/fmcrb3000" target="_blank">FMCRB 3000 - Collaboration
-                        1 (Single Seat)</a></li>
+                        1 (Single Seat) &#8594;</a></li>
             </ul>
         </div>
 
         <div>
-            <img src="images/ggbrown_building.jpg" alt="George G. Brown Laboratories (GG Brown)">
-            <p>George G. Brown Laboratories (GG Brown)</p>
-            <a href="https://maps.app.goo.gl/7BnQkH7fLihLgBwq7" target="_blank">
+            <figure>
+                <img src="images/ggbrown_building.jpg" alt="George G. Brown Laboratories (GG Brown)">
+                <figcaption>George G. Brown Laboratories (GG Brown)</figcaption>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/7BnQkH7fLihLgBwq7" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
+            <ul class="room-list">
                 <li><a href="https://umich-nc.libcal.com/reserve/ggbl2502" target="_blank">GGBL 2502 (Single
-                        Seat)</a>
+                        Seat) &#8594;</a>
                 </li>
                 <li><a href="https://umich-nc.libcal.com/reserve/ggbl2570" target="_blank">GGBL 2570 (Single
-                        Seat)</a>
+                        Seat) &#8594;</a>
                 </li>
             </ul>
         </div>
 
         <div>
-            <img src="images/duder_building.jpg" alt="James and Anne Duderstadt Center (DC)">
-            <p>James and Anne Duderstadt Center (DC)</p>
-            <a href="https://maps.app.goo.gl/TUqd1ihiFXcCfoHc7" target="_blank">
+            <figure>
+                <img src="images/duder_building.jpg" alt="James and Anne Duderstadt Center (DC)">
+                <figcaption>James and Anne Duderstadt Center (DC)</figcaption>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/TUqd1ihiFXcCfoHc7" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
+            <ul class="room-list">
                 <li><a href="https://umich-nc.libcal.com/reserve/dc-interview-rooms" target="_blank">Interview Rooms
-                        (Space for 1-4 People)</a>
+                        (Space for 1-4 People) &#8594;</a>
                 </li>
                 <li><a href="https://umich-nc.libcal.com/reserve/vizhub" target="_blank">Collaboration Computers -
                         2nd
-                        Southwest (Vizhub stations) (Single Seat)</a>
+                        Southwest (Vizhub stations) (Single Seat) &#8594;</a>
                 </li>
                 <li><a href="https://umich-nc.libcal.com/reserve/dc3sw" target="_blank">Collaboration Computers -
                         3rd
-                        Southwest (Single Seat)</a>
+                        Southwest (Single Seat) &#8594;</a>
                 </li>
                 <li><a href="https://umich-nc.libcal.com/reserve/dc3wa" target="_blank">Collaboration Computers -
                         3rd
-                        West Alcove (Single Seat)</a>
+                        West Alcove (Single Seat) &#8594;</a>
                 </li>
             </ul>
         </div>
 
         <div>
-            <img src="images/biomedical_building.jpg" alt="Lurie Biomedical Engineering Building (LBME)">
-            <p>Lurie Biomedical Engineering Building (LBME)</p>
-            <a href="https://maps.app.goo.gl/BSYoemacatjbFpau7" target="_blank">
+            <figure>
+                <img src="images/biomedical_building.jpg" alt="Lurie Biomedical Engineering Building (LBME)">
+                <figcaption>Lurie Biomedical Engineering Building (LBME)</p>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/BSYoemacatjbFpau7" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
+            <ul class="room-list">
                 <li><a href="https://umich-nc.libcal.com/spaces?lid=14919&gid=31127" target="_blank">Student
-                        Conference Room (Space for 9-12 People)</a>
+                        Conference Room (Space for 9-12 People) &#8594;</a>
                 </li>
                 <li><a href="https://umich-nc.libcal.com/spaces?lid=14919&gid=31143" target="_blank">Collaboration
-                        Computers - LBME 1200 (Single Seat)</a>
+                        Computers - LBME 1200 (Single Seat) &#8594;</a>
                 </li>
                 <li><a href="https://umich-nc.libcal.com/spaces?lid=14919&gid=31144" target="_blank">Huddle Space - LBME
-                        1300B/C (Space for 5-8 People)</a>
+                        1300B/C (Space for 5-8 People) &#8594;</a>
                 </li>
             </ul>
         </div>
 
         <div>
-            <img src="images/research_building.jpg" alt="North Campus Research Complex (NCRC)">
-            <p>North Campus Research Complex (NCRC)</p>
-            <a href="https://maps.app.goo.gl/dSYLzquuAd6jQ8xc7" target="_blank">
+            <figure>
+                <img src="images/research_building.jpg" alt="North Campus Research Complex (NCRC)">
+                <figcaption>North Campus Research Complex (NCRC)</figcaption>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/dSYLzquuAd6jQ8xc7" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
+            <ul class="room-list">
                 <li><a href="https://umich-nc.libcal.com/reserve/pierpont-quiet-study" target="_blank">NCRC 028-G129
-                        (Single Seat)</a>
+                        (Single Seat) &#8594;</a>
                 </li>
             </ul>
         </div>
 
         <h2 id="um-library">U-M Library</h2>
         <div>
-            <img src="images/shapiro_lib.jpg" alt="Shapiro Undergraduate Library">
-            <p>Shapiro Undergraduate Library</p>
-            <a href="https://maps.app.goo.gl/ACCWcJPtrFUVRjA39" target="_blank">
+            <figure>
+                <img src="images/shapiro_lib.jpg" alt="Shapiro Undergraduate Library">
+                <figcaption>Shapiro Undergraduate Library</figcaption>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/ACCWcJPtrFUVRjA39" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
+            <ul class="room-list">
                 <li><a href="https://umich.libcal.com/reserve/shapirorooms" target="_blank">Study Rooms
-                        (Space for 1-4/5-8/9-12 People)</a>
+                        (Space for 1-4/5-8/9-12 People) &#8594;</a>
                 </li>
                 <li><a href="https://umich.libcal.com/reserve/umcvga-stations" target="_blank">CVGA Stations (Space for
-                        1-4 People)</a>
+                        1-4 People) &#8594;</a>
                 </li>
             </ul>
         </div>
 
         <div>
-            <img src="images/hatcher_lib.jpg" alt="Hatcher Graduate Library">
-            <p>Hatcher Graduate Library</p>
-            <a href="https://maps.app.goo.gl/sJZi6RbJYcBnmiru7" target="_blank">
+            <figure>
+                <img src="images/hatcher_lib.jpg" alt="Hatcher Graduate Library">
+                <figcaption>Hatcher Graduate Library</figcaption>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/sJZi6RbJYcBnmiru7" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
+            <ul class="room-list">
                 <li><a href="https://umich.libcal.com/spaces?lid=3509&gid=31682" target="_blank">3rd Floor Study Carrels
-                        (Single Seat)</a>
+                        (Single Seat) &#8594;</a>
                 </li>
                 <li><a href="https://umich.libcal.com/spaces?lid=14566&gid=35215" target="_blank">4th and 6th Floor
                         Donor Carrels
-                        (Single Seat)</a>
+                        (Single Seat) &#8594;</a>
                 </li>
             </ul>
         </div>
 
         <div>
-            <img src="images/taubman_lib.jpg" alt="Taubman Health Sciences Library">
-            <p>Taubman Health Sciences Library</p>
-            <a href="https://maps.app.goo.gl/3oxCj7UYTU3exCCg7" target="_blank">
+            <figure>
+                <img src="images/taubman_lib.jpg" alt="Taubman Health Sciences Library">
+                <figcaption>Taubman Health Sciences Library</figcaption>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/3oxCj7UYTU3exCCg7" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
+            <ul class="room-list">
                 <li><a href="https://umich.libcal.com/reserve/anatomage" target="_blank">Anatomage Table (Space for
-                        5-8 People)</a>
+                        5-8 People) &#8594;</a>
                 </li>
                 <li><a href="https://umich.libcal.com/reserve/tableoncloud" target="_blank">Anatomage TableOnCloud
-                        (Single Seat)</a>
+                        (Single Seat) &#8594;</a>
                 </li>
             </ul>
         </div>
 
         <h2 id="um-detroit-center">U-M Detroit Center</h2>
         <div>
-            <img src="images/detroit_center_building.png" alt="U-M Detroit Center Building">
-            <p>Detroit Center</p>
-            <a href="https://maps.app.goo.gl/Wa4YqF5gozYsDMbZ7" target="_blank">
+            <figure>
+                <img src="images/detroit_center_building.png" alt="U-M Detroit Center Building">
+                <figcaption>Detroit Center</figcaption>
+            </figure>
+            <a class="map-link" href="https://maps.app.goo.gl/Wa4YqF5gozYsDMbZ7" target="_blank">
                 <img src="images/google-maps.png" alt="Get Directions on Google Maps">
-                <span>On Google Maps</span>
+                <p>View on Google Maps</p>
             </a>
-            <ul>
-                <li><a href="https://umich-cc.libcal.com/reserve/dc" target="_blank">Single Seats</a>
+            <ul class="room-list">
+                <li><a href="https://umich-cc.libcal.com/reserve/dc" target="_blank">Single Seats &#8594;</a>
                 </li>
             </ul>
         </div>
@@ -249,11 +278,10 @@
     </main>
 
     <footer>
-        <p>MSI Academic Advising | <a
-                href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic
-                Advising </a></p>
+        <p><a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic
+                Advising &#8599</a></p>
+        <p>&copy; 2024 UMSI. All rights reserved.</p>
     </footer>
-
 </body>
 
 </html>

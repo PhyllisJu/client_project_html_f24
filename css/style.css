@@ -14,7 +14,7 @@ header {
     grid-template-columns: 1fr;
     background-color: #00274C;
     color: #f6f6f6;
-    font-size: 4vw;
+    font-size: 4.2vw;
     letter-spacing: 0.5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -31,10 +31,12 @@ nav li {
 
 nav a {
     transition: color 0.3s;
+    transition: font-size 0.3s;
 }
 
 nav a:hover {
   color: #FFCB05;
+  font-size: 4.4vw;
 }
 
 .current {
@@ -44,18 +46,19 @@ nav a:hover {
 }
   
 h1 {
-    font-size: 2.5rem;
+    font-size: 8.5vw;
     text-align: center;
     padding: 80px 30px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     background-color: rgba(0, 0, 0, 0.5);
     color:#f6f6f6;
+    line-height: 60px;
 }
 
 h2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    font-size: 6vw;
     color: #575294;
     text-align: center;
     width: 90%;
@@ -65,14 +68,14 @@ h2 {
 }
 
 h3 {
-    font-size: 3.8vw;
+    font-size: 4.2vw;
     font-weight: 700;
     line-height: 40px;
 }
 
 p {
     line-height: 30px;
-    font-size: 4vw;
+    font-size: 4.2vw;
 }
 
 img {
@@ -110,14 +113,16 @@ footer {
 
 footer a {
     transition: color 0.3s;
+    transition: font-size 0.3s;
 }
 
 footer a:hover {
   color: #FFCB05;
+  font-size: 4.2vw;
 }
 
 footer p {
-    font-size: 3.8vw;
+    font-size: 4vw;
 }
 
 /* skip to main link */
@@ -159,7 +164,7 @@ body *:focus {
 .home-main .first-h2+p {
     font-family: "Montserrat", sans-serif;
     margin-bottom: 30px;
-    font-size: 4vw;
+    font-size: 4.2vw;
     text-align: center;
     font-weight: 500;
 }
@@ -168,7 +173,7 @@ body *:focus {
     list-style-type: circle;
     padding-left: 18px;
     line-height: 30px;
-    font-size: 4vw;
+    font-size: 4.2vw;
 }
 
 .home-main ol {
@@ -183,4 +188,103 @@ body *:focus {
 
 #life-outside-classroom li {
     margin: 5px 0;
+}
+
+/* study spaces page */
+.study-space-title {
+    background-color: #75988d;
+    background-image: url(../images/study_space.jpg);
+    background-size: cover;
+    background-position: center 80%;
+    background-repeat: no-repeat;
+}
+
+.study-main {
+    padding-top: 30px;
+}
+
+.study-main aside {
+    text-align: center;
+    width: 100%;
+}
+
+.study-main aside p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 90px 0;
+    color: #f6f6f6;
+}
+
+.study-main aside a {
+    transition: border-bottom 0.3s;
+    transition: font-size 0.3s;
+    font-size: 7vw;
+}
+
+.study-main aside a:hover {
+    border-bottom: 2px solid #f6f6f6;
+    font-size: 7.3vw;
+}
+
+.study-main .location-btn {
+    background-color: #75988d;
+    background-size: cover;
+    background-position: center 80%;
+    background-repeat: no-repeat;
+    margin: 10px 0;
+}
+
+.study-main #north-campus-btn {
+    background-image: url(../images/study_space.jpg);
+}
+
+.study-main #um-library-btn {
+    background-image: url(../images/um_library.jpg);
+}
+
+.study-main #detroit-center-btn {
+    background-image: url(../images/detroit_center.jpg);
+}
+
+.study-main figcaption {
+    font-size: 4.2vw;
+    color: #131516;
+}
+
+.study-main .map-link {
+    display: grid;
+    grid-template-columns: 30px auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    column-gap: 5px;
+    width: 90%;
+    background-color: #00274C;
+    color: #f6f6f6;
+    padding: 10px 20px;
+    border-radius: 60px;
+    transition: color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.study-main .map-link:hover {
+    background-color: #CFC096;
+    color:#131516;
+}
+
+.study-main .room-list {
+    list-style-type: circle;
+    padding-left: 18px;
+    line-height: 30px;
+    font-size: 4.2vw;
+    margin: 20px auto;
+    margin-bottom: 30px;
+    color: #575294;
+}
+
+.study-main .room-list a {
+    transition: border-bottom 0.3s;
+}
+
+.study-main .room-list a:hover {
+    border-bottom: 2px solid #575294;
 }
